@@ -6,16 +6,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- css stylesheet link -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome icons -->
+    <script src="https://kit.fontawesome.com/1a34e6f699.js" crossorigin="anonymous"></script>
     <!-- Bootstrap css  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Honda CBR Bootstrap</title>
 </head>
 <body>
-    <header>
-        
+    <header class="header-top" >
+        <!-- header top section -->
+        <div class="row m-0  align-items-center  pt-4 g-5"> 
+            <div class="col-lg-5  col-sm-12 ps-5 pe-5">
+                <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                <h1 class="text-white">Honda CBR 300R</h1>
+                <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <!-- modal button -->
+                <!-- Button trigger modal -->
+                    <button type="button" id="btn-color" class="btn rounded px-4 py-2 text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Purchase
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop"data-bs-backdrop="static"  data-bs-keyboard="false"tabindex="-1"aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                            ...
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <img class=" w-100 h-90" src="images/header-bike.png" alt="">
+            </div>
+        </div>        
     </header>
     <main>
-
+        <!-- features bike section -->
+        <section class="container py-5">
+            <div>
+                <h1 class="text-center">Fetured Bikes 2021</h1>
+                <p class="small-text pb-5">Best bike collection</p>
+            </div>
+            <div class="container px-4">
+                <div class="row gx-5">
+                  <div class="col-lg-4 col-sm-12 pb-5 bike-gray-scale">               
+                       <img class="img-fluid" src="images/feature-bike.png" alt="">               
+                  </div>
+                  <div class="col-lg-4 pb-5 col-sm-12">                
+                        <img class="img-fluid" src="images/feature-bike.png" alt="">               
+                  </div>
+                  <div class="col-lg-4 col-sm-12 bike-gray-scale">                
+                        <img class="img-fluid" src="images/feature-bike.png" alt="">               
+                  </div>
+                </div>
+              </div>
+        </section>
+        <!-- happy client section -->
+        <section class="container">
+            <h1 class="text-center pb-5">Happy <span class="heading-color">Clients says</span></h1>
+            <div class="container overflow-hidden">
+                <div class="row gx-5 pb-5">
+                  <div class="col-lg-4 col-sm-12 ">
+                   <div class="p-3 border ">
+                       <img class="img-fluid pb-4" src="images/user-1.png" alt="">
+                       <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                       <div class="d-flex justify-content-center align-items-center py-4">
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="far fa-star star-icon"></i>
+                       </div>
+                       <a class="text-decoration-none d-flex pb-2 justify-content-center" href="">Regina Miles</a>
+                       <h5 class="text-center py-2">Banker</h5>
+                   </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12 ">
+                   <div class="p-3 border ">
+                       <img class="img-fluid pb-4" src="images/user-2.png" alt="">
+                       <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                       <div class="d-flex justify-content-center align-items-center py-4">
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="far fa-star star-icon"></i>
+                       </div>
+                       <a class="text-decoration-none d-flex pb-2 justify-content-center" href="">Regina Miles</a>
+                       <h5 class="text-center py-2">Banker</h5>
+                   </div>
+                  </div>
+                  <div class="col-lg-4 col-sm-12">
+                   <div class="p-3 border">
+                       <img class="mw-100 pb-4" height="324" src="images/user-3.png" alt="">
+                       <p>Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+                       <div class="d-flex justify-content-center align-items-center py-4">
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="fas fa-star star-icon"></i>
+                        <i class="far fa-star star-icon"></i>
+                       </div>
+                       <div>
+                        <a class="text-decoration-none d-flex pb-2  justify-content-center" href="">Regina Miles</a>
+                        <h5 class="text-center py-2">Banker</h5>
+                       </div>
+                   </div>
+                  </div>
+                 
+                </div>
+              </div>
+        </section>
+        <!-- Frequently Asked Questions section -->
+        <section class="container">
+            <h1 class="text-center pb-5">Frequently Asked <span class="heading-color">Questions</span></h1>
+            <div class="row pb-5">
+                <div class="col-lg-6 col-sm-12 pb-5">
+                    <img class="mw-100" height="380"  src="images/faq.png" alt="">
+                </div>
+                <!-- accordion items section -->
+                <div class="accordion col-lg-6 col-sm-12" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the most important things I should
+                            know about riding a bike?
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>
+                            Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            How can I tell if my helmet is old and I need a 
+                            new one?
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>
+                            Donate it to emergency services. Ambulance, police and fire services are always providing free first aid courses, especially those for motorcyclists like Biker Down or FireBike. 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            My bike has been in storage is it safe to ride?
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>
+                            Ride on the right-hand side of the street, so you travel in the same direction as cars do. Never ride against traffic. Use bike lanes wherever you can. Don't ride too close to parked cars.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            What rules should I follow when riding my bike?
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>                                                        
+                                Cycling over 50 will improve your strength, balance and endurance while boosting your mental health. If it's been a few years — OK, maybe decades — since you hopped on a bike, there's no better time to take up this low-impact exercise.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </section>
     </main>
     <footer>
 

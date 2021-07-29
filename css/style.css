@@ -1,0 +1,25 @@
+.header-top{
+    background-color: #264653;
+    margin-top: 0px;
+}
+
+#btn-color{
+    background-color: #E76F51;
+}
+
+/* features bike styles */
+.small-text{
+    font-size: 14px;
+    text-align: center;
+    color: #E76F51;
+}
+.bike-gray-scale{
+    filter: grayscale(100%);
+}
+/* happy client stylesheet */
+.heading-color{
+    color: #E76F51;
+}
+.star-icon{
+    color: #E77C40;
+}
